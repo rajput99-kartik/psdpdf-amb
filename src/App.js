@@ -10,12 +10,18 @@ function App() {
 
   return (
     <div className="App">
-      <button className="App-button" onClick={handleOpen}>
+      <h1> AMB PDF Editor</h1>
+      {/* <button className="App-button" onClick={handleOpen}>
         Open another document
-      </button>
+      </button> */}
+      <h2> 
+      Made with <span style={{ color: 'red' }}>&#10084;</span> by Kartik Rana
+
+</h2>
       <div className="App-viewer">
         <PdfViewerComponent document={document} />
       </div>
+     
     </div>
   );
 }
